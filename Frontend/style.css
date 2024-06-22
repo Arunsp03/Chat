@@ -1,0 +1,21 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.chat{
+display: flex;
+flex-direction: row;
+height: 100vh;
+}
+.users{
+    width: 20vw;
+    background-color: black;
+    color: white;
+
+}
+.chat-section
+{
+    width: 80vw;
+
+}

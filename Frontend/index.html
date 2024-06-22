@@ -1,0 +1,24 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <form id="jonchat">
+            <label for="username">User Name</label>
+    <input type="text" id="username" name="username" placeholder="Enter UserName" required>
+    <button  type="button" onclick="handlesubmit(event)">Submit</button>
+        </form>
+    <script>
+        function handlesubmit(e){
+            e.preventDefault();
+            const username=document.getElementById("username").value;
+            localStorage.setItem("username",username);
+            location.href="chat.html";
+        }
+    </script>
+    </body>
+    </html>
