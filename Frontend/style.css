@@ -39,3 +39,111 @@ cursor: pointer;
     position: fixed;
     bottom: 0;
 }
+.current-user{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+.received-message{
+    background-color: gray;
+    color: rgb(3, 30, 3);
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    float: left;
+    display: block;
+    width: 70vw;
+    margin: 1rem;
+    font-size: 18px;
+    word-wrap: normal;
+    
+}
+.sent-message{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    float: right;
+    padding: .5rem;
+    font-size: 18px;
+    border-radius: 5px;
+    display: block;
+    width: 70vw;
+    word-wrap: normal;
+    margin: 1rem;
+
+
+}
+.message-section
+{
+    overflow-y: scroll;
+}
+.message-input-section{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+   
+    justify-content: flex-start;
+    align-items: center;    
+}
+#msg-input
+{
+    border-radius: 5px;
+    width: 70vw;
+    padding: .5rem;
+}
+#msg-btn{
+    margin-left: 1rem;
+    padding: .5rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#msg-btn:hover
+{
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+}
+textarea{
+    resize: none;
+}
+.user-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 40vw;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 12%;
+    flex-direction: column;
+}
+.user-form input{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.user-form button{
+    padding: .4rem;
+    margin: 1rem;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#jonchat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#jonchat label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}

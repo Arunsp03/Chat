@@ -7,11 +7,13 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
+        <div class="user-form">
         <form id="jonchat" onsubmit="handlesubmit(event)">
             <label for="username">User Name</label>
     <input type="text" id="username" name="username" placeholder="Enter UserName" required>
     <button  type="submit" >Submit</button>
         </form>
+    </div>
     <script>
         function handlesubmit(e){
             e.preventDefault();
