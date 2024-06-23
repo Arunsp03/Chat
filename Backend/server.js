@@ -5,7 +5,7 @@ const app = express();
 let users=[];
 const httpServer = createServer(app);
 const io = new Server(httpServer, {  
-    cors:"http://127.0.0.1:5500"
+    cors:"enter you frontends port here"
 });
 
 io.on("connection", (socket) => {
